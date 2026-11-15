@@ -1,3 +1,5 @@
+// a middleware is a function
+
 const jwt = require("jsonwebtoken");
 const auth = (req, res, next) => {
   // The client sends its saved JWT in the Authorization header.
